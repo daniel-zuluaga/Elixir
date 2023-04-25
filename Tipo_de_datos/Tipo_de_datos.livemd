@@ -1,0 +1,65 @@
+# Tipos de datos
+
+## Section
+
+```elixir
+´´´Elixir 
+1 # integer 
+1.4 # float o double 
+true # boolean 
+[1,2,45,909] # listas 
+{1,23,45,90,890} # tuplas 
+"Elixir" # strings 
+:atom # atom or symbol
+´´´
+```
+
+## Arítmeticas
+
+```elixir
+2 + 3
+```
+
+```elixir
+4 / 5
+```
+
+```elixir
+10 / 2
+```
+
+```elixir
+div(10, 5)
+```
+
+```elixir
+rem(10, 2)
+```
+
+```elixir
+rem(10, 6)
+```
+
+```elixir
+round(2.58)
+```
+
+```elixir
+trunc(3.6)
+```
+
+```elixir
+round(2.4)
+```
+
+```elixir
+trunc(3.4)
+```
+
+## Identificando funciones y documentacion
+
+```elixir
+
+```
+
+## Section
