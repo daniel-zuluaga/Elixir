@@ -3,15 +3,22 @@
 ## Section
 
 ```elixir
-´´´Elixir 
-1 # integer 
-1.4 # float o double 
-true # boolean 
-[1,2,45,909] # listas 
-{1,23,45,90,890} # tuplas 
-"Elixir" # strings 
-:atom # atom or symbol
-´´´
+# ´´´Elixir 
+# integer 
+1
+# float o double 
+1.4
+# boolean 
+true
+# listas 
+[1, 2, 45, 909]
+# tuplas 
+{1, 23, 45, 90, 890}
+# strings 
+"Elixir"
+# atom or symbol
+:atom
+# ´´´
 ```
 
 ## Arítmeticas
@@ -62,4 +69,91 @@ trunc(3.4)
 
 ```
 
-## Section
+## Valores Boolean
+
+```elixir
+true != true
+```
+
+```elixir
+is_boolean(3)
+```
+
+```elixir
+is_float(1.2)
+```
+
+```elixir
+is_number(2)
+```
+
+```elixir
+is_number(true)
+```
+
+## Atoms or symbols
+
+```elixir
+# :apple // esto es un atomo
+# :orange // esto es un atomo
+# :watermelon // esto es un atomo
+```
+
+```elixir
+:apple == :orange
+```
+
+```elixir
+:apple != :watermelon
+```
+
+```elixir
+is_atom(false)
+```
+
+```elixir
+is_boolean(true)
+```
+
+```elixir
+is_atom(Hello)
+```
+
+## Strings
+
+```elixir
+"hello friend"
+```
+
+```elixir
+watermelonString = :Watermelon
+"Want #{watermelonString}"
+```
+
+```elixir
+worldString = :World
+"Hello #{worldString}"
+```
+
+```elixir
+perro = "dog"
+"Hello #{perro}"
+gato = "gato con botas"
+"Hello #{gato}"
+```
+
+```elixir
+"Hello\nworld"
+```
+
+```elixir
+IO.puts("Hello\nworld")
+```
+
+```elixir
+String.length("Hello World")
+```
+
+```elixir
+String.upcase("hello world")
+```
