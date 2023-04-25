@@ -1,56 +1,94 @@
 # Tipos de datos
 
 ## Section
-
-```elixir
-´´´Elixir
-1 # integer
-1.4 # float o double
-true # boolean
-[1,2,45,909] # listas
-{1,23,45,90,890} # tuplas
-"Elixir" # strings
-:atom # atom or symbol
-´´´
-```
+# ´´´Elixir
+# integer
+1
+# float o double
+1.4
+# boolean
+true
+# listas
+[1, 2, 45, 909]
+# tuplas
+{1, 23, 45, 90, 890}
+# strings
+"Elixir"
+# atom or symbol
+:atom
+# ´´´
 
 ## Arítmeticas
 
-```elixir
-2 + 3 # RTA/ 5
-```
+2 + 3
 
-```elixir
-4 / 5 # RTA/ 0.8
-```
+4 / 5
 
-```elixir
-10 / 2 # RTA/ 5.0
-```
+10 / 2
 
-```elixir
-div(10, 5) # RTA/ 2
-```
+div(10, 5)
 
-```elixir
-rem(10, 2) # RTA/ 2
-```
-```elixir
-rem(10, 6) # RTA/ 4
-```
+rem(10, 2)
 
-```elixir
-round(2.58) # RTA/ 3
-```
+rem(10, 6)
 
-```elixir
-trunc(3.6) # RTA/ 3
-```
+round(2.58)
 
-```elixir
-round(2.4) # RTA/ 2
-```
+trunc(3.6)
 
-```elixir
-trunc(3.4) # RTA/ 3
-```
+round(2.4)
+
+trunc(3.4)
+
+## Identificando funciones y documentacion
+
+## Valores Boolean
+
+true != true
+
+is_boolean(3)
+
+is_float(1.2)
+
+is_number(2)
+
+is_number(true)
+
+## Atoms or symbols
+
+# :apple // esto es un atomo
+# :orange // esto es un atomo
+# :watermelon // esto es un atomo
+
+:apple == :orange
+
+:apple != :watermelon
+
+is_atom(false)
+
+is_boolean(true)
+
+is_atom(Hello)
+
+## Strings
+
+"hello friend"
+
+watermelonString = :Watermelon
+"Want #{watermelonString}"
+
+worldString = :World
+"Hello #{worldString}"
+
+perro = "dog"
+"Hello #{perro}"
+gato = "gato con botas"
+"Hello #{gato}"
+
+"Hello\nworld"
+
+IO.puts("Hello\nworld")
+
+String.length("Hello World")
+
+String.upcase("hello world")
