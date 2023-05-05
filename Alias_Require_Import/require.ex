@@ -1,7 +1,7 @@
 ## Require
 
 Integer.is_odd(3)
-# sale un error por que para unsar un macro se necesita utilizar el require
+# sale un error por que para usar un macro se necesita utilizar el require
 
 require(Integer)
 
